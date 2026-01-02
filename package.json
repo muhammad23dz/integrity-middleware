@@ -1,12 +1,24 @@
 {
     "name": "payment-integrity-middleware",
     "version": "1.0.0",
+    "description": "HMAC-SHA256 signature validation middleware for Express",
     "main": "index.js",
-    "dependencies": {},
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "keywords": [
+        "hmac",
+        "security",
+        "middleware",
+        "express",
+        "webhook"
+    ],
+    "author": "Mohamed HMAMOUCH",
+    "license": "MIT",
     "devDependencies": {
         "jest": "^29.0.0"
     },
-    "scripts": {
-        "test": "jest"
+    "peerDependencies": {
+        "express": "^4.0.0"
     }
 }
